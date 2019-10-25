@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 720px;
+    margin: auto;
+    border: 1px solid red
+}
+
+#header-logo {
+    width: 100%;
+}
+#header-logo img{
+    max-height: 50px;
+    text-align: center;
+    margin: auto    
+}
+
+#second-header {
+    display: flex;
+    margin: 20px 0;
+}
+
+#second-header #title-block {
+    flex: 1;
+    text-align: center;
+}
+
+#second-header #title-block h3{
+    margin-bottom: 10px;
+}
+
+#second-header #btn-block {
+    text-align: center;
+    flex: 1;
+}
+
+#second-header #btn-block p {
+    margin-bottom: 15px;
+}
+
+#second-header #btn-block button {
+    color: #000;
+    border: none;
+    background-color: yellow;
+    padding: 10px
+}
+
+.main-body {
+    margin: 20px 0;
+    float: left;
+}
+
+.events-container {
+    margin: 15px;
+    min-height: 200px;
+    display: flex;
+}
+
+.events-container .events-img {
+    flex: 1;
+}
+
+.events-container .events-img img {width: 100%}
+.events-container .events-content {
+    flex: 1;
+}
+
+#block-1 {
+    background-color: green;
+}
+
+#block-2 {
+    background-color: blue;
+}
+
+#block-3 {
+    background-color: red;
+}
+.events-content .content{
+    color: #fff;
+    padding: 25px;
+    min-height: 144px;
+}
+
+.events-container .events-content h2{
+    color: #000;
+    margin-bottom: 15px;
+}
+
+
+.events-container .events-content .read-more {
+    background-color: grey;
+    padding: 10px 30px;
+    text-align: right;
+}
+
